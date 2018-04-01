@@ -1,9 +1,9 @@
 
 /*
- *  
+ *
  * accent colour = proposal: #3aa9ff
  * font colour = black
- * default colour = #555 
+ * default colour = #555
  * warning colour = #de0909
  * default shadow: box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); // #b6b6b6
  *
@@ -25,7 +25,7 @@
     font-weight: 400;
     font-style: normal;  }
 
-body{ 
+body{
 	font-family: 'Open Sans', 'Arial Narrow', sans-serif; }
 
 .ipsTabPane>.navigation {
@@ -35,8 +35,8 @@ body{
 	line-height: 38px; }
 
 /* Minimale Breite der Buttons. Zentrierte Ausrichtung der Schrift */
-.ipsCategory > .container .content .visual > .enum > div, 
-.ipsCategory > .container .content .visual > .selector > div, 
+.ipsCategory > .container .content .visual > .enum > div,
+.ipsCategory > .container .content .visual > .selector > div,
 .ipsCategory > .container .extended > .textBox > div {
 	min-width: 50px;
 	text-align: center; }
@@ -47,21 +47,21 @@ body{
 
 .ipsTabPane>.navigation>.scroll>.buttons>div {
 	margin-bottom: -2px; }
-	
+
 .ipsTabPane>.navigation>.scroll>.buttons>div.active {
   height: 34px;
   border-bottom: solid 1px #3aa9ff!important; /* important to circumvent first element has no border css */
   margin-bottom: -5px;
   font-weight: 400; }
-	
+
 div.ipsLogin,
 div.ipsWebFront {
 	color: black;
 	background: #f9f9f9; /* Old browsers */
 	background: -moz-radial-gradient(center, ellipse cover, #f9f9f9 0%, #e3e7eb 100%); /* FF3.6-15 */
 	background: -webkit-radial-gradient(center, ellipse cover, #f9f9f9 0%,#e3e7eb 100%); /* Chrome10-25,Safari5.1-6 */
-	background: radial-gradient(ellipse at center, #f9f9f9 0%,#e3e7eb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }	
-	
+	background: radial-gradient(ellipse at center, #f9f9f9 0%,#e3e7eb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+
 .ipsContainer.text.error {
     color: #de0909; }
 
@@ -72,7 +72,7 @@ div.ipsWebFront {
 .ipsTabPane>.navigation>.scroll>.buttons>div:hover {
 	opacity: 1;
 	font-weight: 400; }
-	
+
 .ipsCategory {
 	padding: 18px 0 0 25px; }
 
@@ -80,14 +80,14 @@ div.ipsWebFront {
 	color: #747474;
 	background: #ffffff;
 	box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
-	
+
 .ipsCategory>.container .content .link{
 	padding-right: 10px; }
 
 /*
 *	Ident all objects with children uner the main cathegory
 */
-.ipsInstancePopup > div > .content > .ipsCategory  > .ipsContainer.container.hasChildren .ipsContainer.hasChildren,	
+.ipsInstancePopup > div > .content > .ipsCategory  > .ipsContainer.container.hasChildren .ipsContainer.hasChildren,
 .content.exclusive > .ipsCategory  > .ipsContainer.container.hasChildren .ipsContainer.hasChildren {
 	margin: 0 0 24px 24px!important; }
 
@@ -96,14 +96,14 @@ div.ipsWebFront {
  *	Fix: ips Elements without children are displayed white on white in ipsInstancePopups
  */
 .ipsInstancePopup > div > .content > .ipsCategory  > .ipsContainer.container.nestedEven{
-	background: #e5e5e5!important; }	
+	background: #e5e5e5!important; }
 
 
 /* reset container background */
 .ipsContainer.container{
 	background: #fff;
 	border-right: none; }
-	
+
 .ipsContainer.container.hasChildren.nestedEven ,
 .ipsContainer.container.hasChildren.nestedEven > .childContainers{
 	background: #e5e5e5!important; }
@@ -113,17 +113,17 @@ div.ipsWebFront {
 .ipsContainer.container.hasChildren.nestedUneven > .childContainers {
 	background: #ffffff; }
 .ipsContainer.container.hasChildren.nestedUneven > .childContainers {
-	border-top: solid 2px #e5e5e5; }	
+	border-top: solid 2px #e5e5e5; }
 .ipsCategory>.container .childContainers {
 	color: black;
 	margin: 0;
 	border-right: 0;
 	background-color: white; }
-	
+
 .ipsTabPane > .navigation ,
 .ipsContentChanger > .navigation {
 	background-color: #111111; }
-  
+
 .ipsCategory>.container .childContainers>div:last-child{
     box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
 
@@ -136,7 +136,7 @@ div.ipsWebFront {
   -moz-animation-name: none !important;
   -ms-animation-name: none !important;
   animation-name: none !important; }
-  
+
 
 /* instead of opacity use highlight colour */
 .ipsDialog.ipsChartDialog > div > div > div {
@@ -144,7 +144,7 @@ div.ipsWebFront {
 .ipsDialog.ipsChartDialog > div > div > div.active,
 .ipsDialog.ipsChartDialog > div > div > div:hover {
 	color: #3aa9ff!important; }
-  
+
 /* prevent title from overlapping chart-options */
 .ipsDialog.ipsChartDialog > div > .title {
     width: calc(100% - 345px);
@@ -196,7 +196,7 @@ div.ipsWebFront {
     filter: drop-shadow( 5px 7px 5px #b6b6b6 ); }
 */
 
-/* 
+/*
  * ipsDialog
  */
 .ipsDialog	> div {
@@ -205,7 +205,7 @@ div.ipsWebFront {
     border: none;
     color: #747474!important;
 	box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
-.ipsDialog	> div,	
+.ipsDialog	> div,
 .ipsNotification {
 	box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
 .ipsDialog>div>.title {
@@ -213,8 +213,8 @@ div.ipsWebFront {
 
 /* ipsEnumDialog */
 .ipsDialog.ipsEnumDialog>div>div.content {
-	margin: 10px 0; }		
-	
+	margin: 10px 0; }
+
 /* ipsEventDialog */
 .ipsDialog.ipsEventDialog>div>.content>.outerCenter>.center>.dayContainer>.day.active ,
 .ipsDialog .upDownSpinner>.scroll>.values>.active {
@@ -223,7 +223,7 @@ div.ipsWebFront {
 /* ipsSchedule Dialog */
 .ipsDialog.ipsEventDialog>div>.content>.outerCenter>.center>.linesContainer>.touchContainer>.sliderContainer>.slider {
 	background-image: none;
-	opacity: 0.6; }	
+	opacity: 0.6; }
 
 .ipsDialog.ipsEventDialog>div>.content>.outerCenter>.center>.linesContainer>.touchContainer>.sliderContainer>.slider:hover {
     opacity: 0.8!important; }
@@ -233,7 +233,7 @@ div.ipsWebFront {
     text-align: center;
     margin: 0!important;
     width: 20%; }
-    
+
 .ipsDialog.ipsEventDialog>div>.content>.outerCenter>.center>.timesContainer>.timeEntry:nth-child(2) {
     left: 20.5%; }
 .ipsDialog.ipsEventDialog>div>.content>.outerCenter>.center>.timesContainer>.timeEntry:nth-child(3) {
@@ -246,9 +246,9 @@ div.ipsWebFront {
 /* FIXME: this is currently set hardcoded in the style - why? */
 .ipsDialog.ipsEventDialog>div>.content>.outerCenter>.center>.scheduleDayContainer>.day div {
     padding: 3px 3px 1px!important;
-}	
+}
 
-/* ipsInstancePopup dialog */	
+/* ipsInstancePopup dialog */
 /* FIXME: try this with more complex dialogs! */
 .ipsInstancePopup > div > .content > .ipsCategory > .ipsContainer {
 	box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
@@ -258,7 +258,7 @@ div.ipsWebFront {
 .ipsColorDialog .ipsIconOk {
     background-image: url(../../../img/icons/Ok.svg); /* overwrite skin-icon with default one */
 }
-	
+
 /* ipsCircleSlider dialog */
 
 /* FIXME: how to style save dialog  */
@@ -300,39 +300,39 @@ div.ipsWebFront {
 	margin-right: -60px;
 	right: 2px; }
 .ipsVariable  > .content > .visual > .slider   {
-	margin-right: 63px!important; }	
+	margin-right: 63px!important; }
 .ipsCategory>.container .content .visual>.slider {
     margin-left: -60px;
-    width: calc(100% - 50px); }	
-	
+    width: calc(100% - 50px); }
+
 /* Colored */
 .ipsCategory>.container .content .visual>.text.colored  {
 		background-image: none!important; }
 
 /* Graph Workarround, this sould be white! */
 html body .ipsDialog.ipsChartDialog > div {
-    background-color: #747474!important; }		
-	
+    background-color: #747474!important; }
+
 /* edit Text */
 .ipsCategory>.container .content .visual>.text>input[type=text] {
-	color: #747474; 
+	color: #747474;
 	font-size: 16px; }
-	
+
 /* Editor */
 .ipsEditorDialog > div > div.content  select,
 .ipsEditorDialog > div > div.content input{
 	color: #747474!important;
     border: solid 1px black!important; }
-	
+
 .ipsEditorDialog > div > div.content  select option {
 	background-color: #e5e5e5!important;
 	color: #747474!important;
 	box-shadow: 0px 7px 5px -5px rgb(182, 182, 182)!important; }
 
-.ipsWebFront.editable>.new, 
-.ipsSplitPane.editable>.top>.new, 
-.ipsSplitPane.editable>.bottom>.new, 
-.ipsSplitPane.editable>.left>.new, 
+.ipsWebFront.editable>.new,
+.ipsSplitPane.editable>.top>.new,
+.ipsSplitPane.editable>.bottom>.new,
+.ipsSplitPane.editable>.left>.new,
 .ipsSplitPane.editable>.right>.new {
     background: none!important;
     border-color: #747474!important; }
@@ -340,13 +340,13 @@ html body .ipsDialog.ipsChartDialog > div {
 .ipsSplitPane.editable .new > .new-middle > .new-text {
 	margin: 0 auto;
     width: 22px; }
-	
+
 .sub  > .ipsIconEdit{
 margin-top: 5px; }
-	
+
 /* remove border between panes */
 .ipsSplitPane.border>.left {
-	border: none; }	
+	border: none; }
 
 /* prevent doubled shadow when having a tab pane inside a tab pane */
 .ipsTabPane>.content {
@@ -354,10 +354,10 @@ margin-top: 5px; }
 
 .ipsDialog.ipsChartDialog>div>.topRightBox>div {
 	color: black; }
-	
+
 html body .ipsDialog.ipsChartDialog > div {
     background-color: #f9f9f9!important; }
-    
+
 .ipsDialog	> div, .ipsNotification div.message {
     color: black!important; }
 
@@ -387,9 +387,9 @@ div.ipsChart>svg>g.graphs>g.outline>g>path {
 div.ipsChart>svg>g.graphs>g.background>g>path {
 	fill: grey;
     opacity: 0.15; }
-    
-.ipsCategory>.container .extended>.textBox, 
-.ipsCategory>.container .extended>.htmlBox, 
+
+.ipsCategory>.container .extended>.textBox,
+.ipsCategory>.container .extended>.htmlBox,
 .ipsCategory>.container .extended>.mailBox {
     background: none;
     border: none;
@@ -397,13 +397,13 @@ div.ipsChart>svg>g.graphs>g.background>g>path {
 
 .draggable {
 	border-left: 3px double darkgrey!important; /* put a double border on the left of draggable elements*/ }
-/* Just a documentation of how the Profile-Selector works*/	
+/* Just a documentation of how the Profile-Selector works*/
 [class~="ipsVariableProfile[~HTMLBox]"] .content.tr	{
 	cursor: pointer; }
 
 /*
  *	DWD fancy-niser
- */	
+ */
 div.ipsPanel.ipsDWDReport,
 .ipsDWDImage > div.ratio {
     position: relative;
@@ -420,17 +420,18 @@ div.ipsPanel.ipsDWDReport {
     margin-left: 40px;
     padding: 10px; }
 
-div.ipsPanel.ipsDWDReport .title {    
+div.ipsPanel.ipsDWDReport .title {
     font-family: 'Roboto Narrow', 'Arial Narrow', sans-serif; }
 
 
 /*
  *	Login area
- */	
+ */
 
 .ipsLogin .logoTop {
 	/* background-image: url(../img/logo.svg);  FIXME: blue Logo */
-	filter: invert(100%);
+    background-image: url(./img/Logo_Knockaut.jpg);
+    filter: invert(100%);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100px;
@@ -441,7 +442,7 @@ div.ipsPanel.ipsDWDReport .title {
 .ipsLogin>.content {
 	margin: 0;
 	height: 50%; }
-	
+
 .ipsLogin>.content>.configurators {
 	background: none;a
     border: none;
@@ -464,10 +465,10 @@ div.ipsPanel.ipsDWDReport .title {
 	font-weight: bold;
 	background-color: white;
 	box-shadow: 0px 9px 5px -5px rgb(182, 182, 182); }
-	
+
 .ipsLogin>.content>.configurators>div:hover>.title {
 	margin-top: 1px; }
-	
+
 .ipsDialog.ipsHTMLDialog.ipsInstancePopup>div>.content {
 	right: 0; }
 
@@ -484,57 +485,57 @@ div.ipsPanel.ipsDWDReport .title {
 	color: #555;
 	margin: 0;
     top: 145px; }
-    
+
 .ipsLogin>.content>.throbber {
 	top: 75%; }
 
 .ipsLogin>.content>.throbber .iconSpinner {
-	background-image: url(img/spinner.svg); }       
+	background-image: url(img/spinner.svg); }
 
 .ipsLogin .ipsIconEdit {
     opacity: 0.8!important;
     cursor: pointer;
     margin-top: 3px!important;
     background-image: url(icons/primary/Edit.svg); }
-        
-/* Throbber */        
+
+/* Throbber */
 .iconSpinner {
 	background-image: url(img/spinner.svg)!important; }
-	
-	
+
+
 /*
  *
- *	ipsEditor	
+ *	ipsEditor
  *
  */
 .ipsWebFront.editable>.save {
 	border: none;
 	background-color: #3aa9ff;
 	background-image: url(/img/icons/Ok.svg); }
-	
+
 .ipsTabPane.editable>.navigation>div>div>div>.edit,
 .ipsTabPane.editable>.navigation>div>.edit,
 .ipsTabPane.editable>.navigation>div>div>.edit {
 	opacity: 1!important;
-    background-image: url(icons/primary/Edit.svg); }    
-    
+    background-image: url(icons/primary/Edit.svg); }
+
 .ipsTabPane.editable>.navigation>.scroll>.buttons>div>.new {
 	opacity: 1;
 	background-image: url(icons/primary/Plus.svg); }
-	
-.ipsDialog.ipsEditorDialog>div>.remove, 
+
+.ipsDialog.ipsEditorDialog>div>.remove,
 .ipsDialog.ipsEditorDialog>div>.save {
 	opacity: 1; }
-	
+
 .ipsDialog.ipsEditorDialog>div>.save {
 	background-image: url(icons/primary/Ok.svg);
 	cursor: pointer; }
-	
-.ipsWebFront.editable>.edit, 
-.ipsSplitPane.editable>.top>.edit, 
-.ipsSplitPane.editable>.bottom>.edit, 
-.ipsSplitPane.editable>.left>.edit, 
+
+.ipsWebFront.editable>.edit,
+.ipsSplitPane.editable>.top>.edit,
+.ipsSplitPane.editable>.bottom>.edit,
+.ipsSplitPane.editable>.left>.edit,
 .ipsSplitPane.editable>.right>.edit {
 	border-color: #3aa9ff;
 	 opacity: 1!important;
-    background-image: url(icons/primary/Edit.svg); } 
+    background-image: url(icons/primary/Edit.svg); }
