@@ -435,9 +435,9 @@ div.ipsPanel.ipsDWDReport .title {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100px;
-    margin-left: 0px;
+    margin-left: -200px;
     margin-top: -100px;
-    width: 400px; }
+    width: 100%; }
   }
 
 .ipsLogin>.content {
