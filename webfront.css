@@ -473,7 +473,7 @@ div.ipsPanel.ipsDWDReport .title {
 	right: 0; }
 
 .ipsLogin>.content>.configurators>div>.icon {
-	filter: invert(100%) opacity(60%); /* FIXME: unsupported */
+	filter: invert(0%) opacity(60%); /* FIXME: unsupported */
 	display: block;
     position: absolute;
     height: 110px;
