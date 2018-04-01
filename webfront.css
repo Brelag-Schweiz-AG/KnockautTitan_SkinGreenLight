@@ -473,12 +473,11 @@ div.ipsPanel.ipsDWDReport .title {
 	right: 0; }
 
 .ipsLogin>.content>.configurators>div>.icon {
-	filter: invert(0%) opacity(100%); /* FIXME: unsupported */
-    background-image: url(./img/faust.svg);
+	filter: invert(100%) opacity(60%); /* FIXME: unsupported */
 	  display: block;
     position: absolute;
-    height: 80px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     margin: 5px 45px;
     background-size: cover; }
 
